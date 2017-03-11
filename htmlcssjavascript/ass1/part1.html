@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sayed Erfan Arefin</title>
+
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+<form>
+  <fieldset>
+    <legend>Your Face</legend>
+    Your image: <input type="file" required><br>
+    Image Preview: 
+    <img src="" id="preview" alt="image">
+  </fieldset>
+
+   <fieldset>
+    <legend>Your General Details</legend>
+    Name: <input type="text" required><br>
+
+
+    Gender: 
+    <input type="radio" name="gender" value="male" required> Male
+    <input type="radio" name="gender" value="female"> Female<br>
+
+
+    Age: <input type="number" required><br>
+    Date of birth: <input type="date" name="bday"><br>
+
+    Favourite color: <input type="color" name="favcolor" value="#ff0000"><br>
+
+    Which Country:
+    <select name="country">
+        <option value="AF">Afghanistan</option>
+        <option value="BD">Bangladesh</option>
+    </select>
+
+
+  </fieldset>
+
+
+   <fieldset>
+    <legend>Your Indicators</legend>
+    Height: Short <input type="range" min="0" max="100"> Tall<br>
+    Salary: Poor <input type="range" min="0" max="100"> Rich<br>
+    
+    
+  </fieldset>
+
+   <fieldset>
+    <legend>Your Contact Information</legend>
+    Email: <input type="email" required><br>
+    Mobile: <input type="tel"><br>
+    Address: <textarea></textarea><br>
+    Method to contact you: 
+    <input type="checkbox" name="methods" value="male"> Email
+    <input type="checkbox" name="methods" value="female"> Whatsapp
+    <input type="checkbox" name="methods" value="female"> In-app chat<br>
+  </fieldset>
+
+<input type="submit">
+</form>
+</body>
