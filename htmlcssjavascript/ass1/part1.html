@@ -2,37 +2,33 @@
 <html>
 <head>
     <title>Sayed Erfan Arefin</title>
-
-    <!-- CSS  -->
-    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-
 </head>
 <body>
 <form>
   <fieldset>
     <legend>Your Face</legend>
-    Your image: <input type="file" required><br>
+    <label for="avatar">Your image:</label> <input type="file" id="avatar" id= "avatar" required><br>
     Image Preview: 
     <img src="" id="preview" alt="image">
   </fieldset>
 
    <fieldset>
     <legend>Your General Details</legend>
-    Name: <input type="text" required><br>
+    <label for="name">Name:</label> <input type="text" name="name" id= "name" required><br>
 
 
-    Gender: 
-    <input type="radio" name="gender" value="male" required> Male
+    <label for="gender">Gender: </label>
+    <input type="radio" name="gender" value="male" name="gender" id= "gender" required> Male
     <input type="radio" name="gender" value="female"> Female<br>
 
 
-    Age: <input type="number" required><br>
-    Date of birth: <input type="date" name="bday"><br>
+    <label for="age">Age: </label><input type="number" name="age" id= "age" required><br>
+    <label for="dob">Date of birth: </label><input type="date" name="dob" id= "dob" ><br>
 
-    Favourite color: <input type="color" name="favcolor" value="#ff0000"><br>
+    <label for="color">Favourite color: </label><input type="color" name="color" id= "color"  value="#ff0000"><br>
 
-    Which Country:
-    <select name="country">
+    <label for="country">Which Country:</label>
+    <select name="country" id= "country">
         <option value="AF">Afghanistan</option>
         <option value="BD">Bangladesh</option>
     </select>
@@ -43,18 +39,18 @@
 
    <fieldset>
     <legend>Your Indicators</legend>
-    Height: Short <input type="range" min="0" max="100"> Tall<br>
-    Salary: Poor <input type="range" min="0" max="100"> Rich<br>
+    <label for="avatar">Height:</label> Short <input type="range" min="0" max="100"> Tall<br>
+    <label for="avatar">Salary:</label> Poor <input type="range" min="0" max="100"> Rich<br>
     
     
   </fieldset>
 
    <fieldset>
     <legend>Your Contact Information</legend>
-    Email: <input type="email" required><br>
-    Mobile: <input type="tel"><br>
-    Address: <textarea></textarea><br>
-    Method to contact you: 
+    <label for="avatar">Email: </label><input type="email" required><br>
+    <label for="avatar">Mobile: </label><input type="tel"><br>
+    <label for="avatar">Address: </label> <textarea></textarea><br>
+    <label for="avatar">Method to contact you:</label> 
     <input type="checkbox" name="methods" value="male"> Email
     <input type="checkbox" name="methods" value="female"> Whatsapp
     <input type="checkbox" name="methods" value="female"> In-app chat<br>
